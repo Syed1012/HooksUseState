@@ -1,5 +1,3 @@
-# React + Vite
-
 # React HOOK
 - To use useState import React, {useState} form React.
 
@@ -7,6 +5,13 @@
 
 - useState = It is a react hook that allows creation of stateful variable and a setter function to update its value in virtual DOM. like: [name, setName]
 
+1. Defining State: When you use useState, you're defining a piece of state in your component. The useState function returns an array with two elements:
+
+2. The first element is the current value of the state (Option in your example).
+The second element is a function that allows you to update the state (setOption in your example).
+Setting Initial State: You can provide an initial value for your state when you call useState. This initial value can be any valid JavaScript value, such as a string (""), a number (0), an object ({}), or an array ([]).
+
+3. Updating State: To update the state, you call the function returned by useState (setOption in your example) and pass the new value you want to set. React will then re-render your component with the new state value.
 
 # Counter.jsx is my code 🤣
 
